@@ -90,6 +90,14 @@ Performance was evaluated using 16 parallel simulation environments and Model Pr
 
 *Note: ViT-MAE records the lowest spatial error on PushT, highlighting the geometric precision of reconstructive objectives. Meanwhile, SigLIP resolves CLIP's spatial degradation, matching DINOv2's zero-shot planning robustness on the Wall task.*
 
-## 📜 Acknowledgements
-* Original DINO-WM framework: [Zhou et al., 2024](https://arxiv.org/abs/2411.04983)
-* 3D Simulation: [ManiSkill 3](https://github.com/haosulab/ManiSkill)
+## 📜 Acknowledgements & References
+
+This project builds upon the foundational research of several incredible teams. If you find this repository useful, please consider referencing the following original works:
+
+* **DINO-WM (Base Framework):** Zhou, G., Pan, H., LeCun, Y. & Pinto, L. (2024). *DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning*. [arXiv:2411.04983](https://arxiv.org/abs/2411.04983)
+* **ManiSkill 3 (3D Simulator):** Tao, S. et al. (2024). *ManiSkill: Generalizable Manipulation Skill Benchmark*. [GitHub](https://github.com/haosulab/ManiSkill) | [arXiv:2410.00425](https://arxiv.org/abs/2410.00425)
+* **DINOv2:** Oquab, M. et al. (2023). *DINOv2: Learning Robust Visual Features without Supervision*. [arXiv:2304.07193](https://arxiv.org/abs/2304.07193)
+* **CLIP:** Radford, A. et al. (2021). *Learning Transferable Visual Models From Natural Language Supervision*. [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
+* **SigLIP:** Zhai, X. et al. (2023). *Sigmoid Loss for Language Image Pre-Training*. [arXiv:2303.15343](https://arxiv.org/abs/2303.15343)
+* **ViT-MAE:** He, K. et al. (2022). *Masked Autoencoders Are Scalable Vision Learners*. [arXiv:2111.06377](https://arxiv.org/abs/2111.06377)
+* **World Models (Core Concept):** Ha, D. & Schmidhuber, J. (2018). *World Models*. [arXiv:1803.10122](https://arxiv.org/abs/1803.10122)
