@@ -8,6 +8,15 @@ This repository evaluates how different pre-trained **Visual Foundation Models (
 
 Based on the [DINO-WM](https://arxiv.org/abs/2411.04983) architecture, we engineered an **interchangeable backbone wrapper** to benchmark four different visual encoders (DINOv2, CLIP, SigLIP, and ViT-MAE) without retraining the visual representations. The models are evaluated on both 2D continuous control tasks (PushT, Wall) and a highly realistic 3D robotic arm environment (PushCube via ManiSkill 3).
 
+## 👥 Authors
+
+Developed as an MSc project in Artificial Intelligence Engineering at the University of Modena and Reggio Emilia (UNIMORE) by:
+
+* **Michele Arduini** — [GitHub](https://github.com/mikiarduini)
+* **Michele Arioli** — [GitHub](https://github.com/michelearioli)
+
+📄 [Project report](docs/report.pdf) · 📊 [Presentation slides](docs/slides.pdf)
+
 ## 🚀 Key Features
 
 * **Interchangeable Backbone Abstraction**: Dynamically switch between contrastive, reconstructive, and self-distilled Vision Transformers via Hydra configs.
